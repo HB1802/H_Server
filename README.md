@@ -7,12 +7,14 @@ Introduction
 Basic Working Flow of the Proxy Server:
 ![ uml diagram for proxy server](https://github.com/HB1802/H_Server/assets/99615240/397a5f8b-835d-4d18-a2c5-3c4c17c4bb8b)
 
+## Description
+How did we implement Multi-threading? <br>
+* Used Semaphore instead of Condition Variables and pthread_join() and pthread_exit() function.
+* pthread_join() requires us to pass the thread id of the the thread to wait for.
+* Semaphore’s sem_wait() and sem_post() doesn’t need any parameter. So it is a better option.
 
 
-##How did we implement Multi-threading?<br>
-*Used Semaphore instead of Condition Variables and pthread_join() and pthread_exit() function.
-*pthread_join() requires us to pass the thread id of the the thread to wait for.
-*Semaphore’s sem_wait() and sem_post() doesn’t need any parameter. So it is a better option.
+
 
 
 Motivation/Need of Project
