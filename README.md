@@ -18,11 +18,11 @@ How did we implement Multi-threading? <br>
 
 
 Motivation/Need of Project
-To Understand →
-*The working of requests from our local computer to the server.
-*The handling of multiple client requests from various clients.
-*Locking procedure for concurrency.
-*The concept of cache and its different functions that might be used by browsers.
+To Understand →<br>
+* The working of requests from our local computer to the server.
+* The handling of multiple client requests from various clients.
+* Locking procedure for concurrency.
+* The concept of cache and its different functions that might be used by browsers.
 
 Proxy Server do →
 *It speeds up the process and reduces the traffic on the server side.
