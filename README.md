@@ -45,8 +45,8 @@ We can implement requests like POST with this code.
 Note :-
 Code is well commented. For any doubt you can refer to the comments.
 How to Run
-$ git clone https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient.git
-$ cd MultiThreadedProxyServerClient
+$ git clone https://github.com//H_Server.git
+$ cd H_Server
 $ make all
 $ ./proxy <port no.>
 Open http://localhost:port/https://www.cs.princeton.edu/
